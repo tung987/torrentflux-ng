@@ -1,0 +1,24 @@
+<tmpl_include name="inc.head.tmpl">
+<tmpl_include name="inc.titleBar.tmpl">
+<div id="content">
+	<div id="upload">
+		<div id="uploadLast"></div>
+		<div id="uploadFirst">
+			<span class="upload">
+				<tmpl_var name="_ERROR">
+			</span>
+		</div>
+	</div>
+	<div class="uploadClass">
+		<span id="newUser"><tmpl_var name="newUser">
+                <tmpl_var name="errMsgUsername">
+                <tmpl_var name="errMsgPassword">
+                <tmpl_var name="errMsgEmail">
+		</span>
+	</div>
+	<div id="uploadBottom"></div>
+	<div id="uploadBottomEnd"></div>
+	<tmpl_include name="inc.subfoot.tmpl">
+</div>
+</body>
+</html>
